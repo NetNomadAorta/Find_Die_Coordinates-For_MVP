@@ -53,7 +53,7 @@ def getMatch(window, goldenImage, x, y):
 # =============================================================================
 print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 
-# Deletes contents in cropped and split folders
+# Deletes contents in cropped folders before use
 deleteDirContents("./Images/Cropped_Die_Images/")
 
 # load the full and comparing crop images
